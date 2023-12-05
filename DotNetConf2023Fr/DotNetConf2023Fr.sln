@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DISupportDemo", "DISupportDemo\DISupportDemo.csproj", "{1FF80A4F-0A89-434B-96AC-4DFE56B45D05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DISupportDemoClient", "DISupportDemoClient\DISupportDemoClient.csproj", "{752140A3-54F1-47B3-A057-29C05E39C783}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI Support", "DI Support", "{FC907E28-37CB-4675-BB73-8B9C2FEA13F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue support", "Queue support", "{2A013A8A-2B80-4BC1-8AD5-7ECC13559B7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthN AuthZ integration", "AuthN AuthZ integration", "{5E568A2D-CC80-483E-BDD1-46D55FBC7F8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthNAuthZDemo", "AuthNAuthZDemo\AuthNAuthZDemo.csproj", "{E0C92056-9ADC-48A4-85A6-21857E5B3982}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthNAuthZDemoClient", "AuthNAuthZDemoClient\AuthNAuthZDemoClient.csproj", "{646821C1-77AB-4E85-AABE-570EF735A727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaDemo", "KafkaDemo\KafkaDemo.csproj", "{E54BFD79-4DE5-4622-9A22-CC1E02BC2DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaDemoClient", "KafkaDemoClient\KafkaDemoClient.csproj", "{E90D8AFA-DA42-477B-B281-45EF2FB11819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FF80A4F-0A89-434B-96AC-4DFE56B45D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF80A4F-0A89-434B-96AC-4DFE56B45D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF80A4F-0A89-434B-96AC-4DFE56B45D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF80A4F-0A89-434B-96AC-4DFE56B45D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752140A3-54F1-47B3-A057-29C05E39C783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752140A3-54F1-47B3-A057-29C05E39C783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752140A3-54F1-47B3-A057-29C05E39C783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752140A3-54F1-47B3-A057-29C05E39C783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C92056-9ADC-48A4-85A6-21857E5B3982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C92056-9ADC-48A4-85A6-21857E5B3982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C92056-9ADC-48A4-85A6-21857E5B3982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C92056-9ADC-48A4-85A6-21857E5B3982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646821C1-77AB-4E85-AABE-570EF735A727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646821C1-77AB-4E85-AABE-570EF735A727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646821C1-77AB-4E85-AABE-570EF735A727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646821C1-77AB-4E85-AABE-570EF735A727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54BFD79-4DE5-4622-9A22-CC1E02BC2DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54BFD79-4DE5-4622-9A22-CC1E02BC2DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54BFD79-4DE5-4622-9A22-CC1E02BC2DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54BFD79-4DE5-4622-9A22-CC1E02BC2DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90D8AFA-DA42-477B-B281-45EF2FB11819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90D8AFA-DA42-477B-B281-45EF2FB11819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90D8AFA-DA42-477B-B281-45EF2FB11819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90D8AFA-DA42-477B-B281-45EF2FB11819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FF80A4F-0A89-434B-96AC-4DFE56B45D05} = {FC907E28-37CB-4675-BB73-8B9C2FEA13F3}
+		{752140A3-54F1-47B3-A057-29C05E39C783} = {FC907E28-37CB-4675-BB73-8B9C2FEA13F3}
+		{E0C92056-9ADC-48A4-85A6-21857E5B3982} = {5E568A2D-CC80-483E-BDD1-46D55FBC7F8E}
+		{646821C1-77AB-4E85-AABE-570EF735A727} = {5E568A2D-CC80-483E-BDD1-46D55FBC7F8E}
+		{E54BFD79-4DE5-4622-9A22-CC1E02BC2DBB} = {2A013A8A-2B80-4BC1-8AD5-7ECC13559B7D}
+		{E90D8AFA-DA42-477B-B281-45EF2FB11819} = {2A013A8A-2B80-4BC1-8AD5-7ECC13559B7D}
+	EndGlobalSection
+EndGlobal
